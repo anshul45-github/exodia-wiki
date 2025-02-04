@@ -19,7 +19,9 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         super: "bg-orange-500 text-primary-foreground hover:bg-orange-500/90 border-orange-600 border-b-4 active:border-b-0",
-        superOutline: "bg-white text-orange-500 hover:bg-slate-100"
+        superOutline: "bg-white text-orange-500 hover:bg-slate-100",
+        sidebarLink: "bg-blue-500 text-primary-foreground hover:bg-blue-500/90 border-blue-600 border-b-4 active:border-b-0",
+        youtubeLink: "bg-red-500 text-primary-foreground hover:bg-red-500/90 border-red-600 border-b-4 active:border-b-0",
       },
       size: {
         default: "h-10 px-4 py-2",

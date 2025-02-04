@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import { SideBarItem } from "./sidebar-item";
+import { Button } from "./ui/button";
 
 interface SidebarProps {
     className?: string;
@@ -21,6 +22,11 @@ export const Sidebar = ({ className }: SidebarProps ) => {
                 <SideBarItem title="Past Editions" href="/past" icon="/past.svg" />
                 <SideBarItem title="Sponsors & Partners" href="/sponsor" icon="/sponsor.svg" />
                 <SideBarItem title="FAQ" href="/faq" icon="/faq.svg" />
+            </div>
+            <div className="p-4">
+                <Link href="https://exodia-iit-mandiii.vercel.app/" target="_blank">
+                    <Button variant={"sidebarLink"} className="w-full">Visit Exodia Main Website</Button>
+                </Link>
             </div>
         </div>
     )
